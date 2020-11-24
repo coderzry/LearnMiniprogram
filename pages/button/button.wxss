@@ -1,0 +1,7 @@
+/* pages/button/button.wxss */
+.pressed {
+  /* 背景变成红色 */
+  background-color: red;
+  /* 字体变成白色 */
+  color: white;
+}

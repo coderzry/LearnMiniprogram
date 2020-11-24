@@ -1,0 +1,20 @@
+<!-- 1.input的基本使用 -->
+<input/>
+
+<!-- 2.value：input中的默认值 -->
+<input value="哈哈哈" />
+
+<!-- 3.type：键盘的类型(文本输入键盘/数字/身份证/小数点) -->
+<input type="idcard" />
+
+<!-- 4.password 暗文(密码) -->
+<input password />
+
+<!-- 5.placeholder 占位文字 -->
+<input placeholder="我是占位" confirm-type="search" />
+
+<!-- 6.confirm-type 右下角按钮的文字 -->
+<input placeholder="confirm-type" confirm-type="search" />
+
+<!-- 7.input事件 -->
+<input bindinput="handleInput" bindfocus="handleFocus" bindblur="handleBlur" />
