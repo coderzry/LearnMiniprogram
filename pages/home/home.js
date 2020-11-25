@@ -1,66 +1,64 @@
 // pages/home/home.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    titles: ['衣服', '裤子', '鞋子']
+  },
+  handleBtnClick() {
+    console.log("按钮发生了点击")
+  },
+  handleTouchStart() {
+    console.log('handleTouchStart')
+  },
+  handleTouchMove() {
+    console.log('handleTouchMove')
+  },
+  handleTouchEnd() {
+    console.log('handleTouchEnd')
+  },
+  handleTap() {
+    console.log('handleTap')
+  },
+  handleLongPress() {
+    console.log('handleLongPress')
+  },
+  handleEventClick(event) {
+    console.log('---------', event)
+  },
+  handleTouchEnd(event) {
+    console.log('+++++++++', event)
+  },
+  handleInner(event) {
+    console.log(event)
+  },
+  handleOuter(event) {
+    console.log(event)
+  },
+  handleItemClick(event) {
+    console.log(event)
+    // title - index
+    const dataset = event.currentTarget.dataset
+    const index = dataset.index
+    const item = dataset.item
+    console.log(index, item)
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  // 事件冒泡和捕获
+  handelCaptureView1() {
+    console.log('handelCaptureView1')
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  handleBindView1() {
+    console.log('handleBindView1')
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  handelCaptureView2() {
+    console.log('handelCaptureView2')
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  handleBindView2() {
+    console.log('handleBindView2')
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
+  handelCaptureView3() {
+    console.log('handelCaptureView3')
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
+  handleBindView3() {
+    console.log('handleBindView3')
   },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
 })
