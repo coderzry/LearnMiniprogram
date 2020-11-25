@@ -1,0 +1,23 @@
+<!--pages/wxss/wxss.wxml-->
+<!-- 1.设置样式的三种方式 -->
+<!-- 1.1行内(内联)样式 -->
+<view style="color: red; font-size: 32px">哈哈哈</view>
+
+<!-- 1.2页内样式 -->
+<view class="box">呵呵呵</view>
+
+<!-- 1.3全局样式(在app.wxss设置) -->
+<view class="container">嘿嘿嘿</view>
+
+<!-- 2.三种的样式作用于同一个组件 行内样式优先级最高 -->
+<!-- 行内样式 > 页内样式 > 全局样式 -->
+<view style="background: red" class="content">嘻嘻嘻</view>
+
+<!-- 3.wxss中的单位: rpx -->
+<view class="box1"></view>
+<view class="box2"></view>
+
+<view class="content1">哈哈哈</view>
+<view class="content2">呵呵呵</view>
+
+<button class="btn">按钮</button>

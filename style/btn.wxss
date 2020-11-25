@@ -1,0 +1,5 @@
+.btn {
+  width: 240rpx;
+  height: 72rpx;
+  display: inline-block;
+}

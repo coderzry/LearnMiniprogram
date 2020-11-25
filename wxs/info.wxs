@@ -1,0 +1,14 @@
+
+  // js 代码
+  var message = "你好啊";
+  var name = "coderzry";
+
+  var sum = function(num1, num2) {
+    return num1 + num2
+  }
+  // commonjs的模块化导出写法
+  module.exports = {
+    message: message,
+    name: name,
+    sum: sum
+  }
