@@ -9,6 +9,9 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
+  "usingComponents":{
+    "my-cpn": "/components/my-cpn/my-cpn"
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

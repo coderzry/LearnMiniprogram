@@ -1,0 +1,6 @@
+<!--components/my-mslot/my-mslot.wxml-->
+<view>我是mslot组件的开始</view>
+  <view class="solt1"><slot name="slot1"/></view>
+  <view class="solt2"><slot name="slot2"/></view>
+  <view class="solt3"><slot name="slot3"/></view>
+<view>我是mslot组件的结尾</view>

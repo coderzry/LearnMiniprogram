@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cpn1": "../cpn1/cpn1"
+  }
+}
